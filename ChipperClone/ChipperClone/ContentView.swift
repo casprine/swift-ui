@@ -88,7 +88,7 @@ struct ProfileSection: View {
                     Image("qr").resizable().frame(width:20,height:20)
                         .padding(.top,40)
                         .padding(.leading,40)
-                        
+                    
                     
                     
                     
@@ -161,7 +161,7 @@ struct UnlockServicesSection :View  {
                 Spacer()
                 Button(action:{
                     withAnimation{
-
+                        
                     }
                 }) {
                     Text("Get Verified").font(.headline).foregroundColor(.white)
