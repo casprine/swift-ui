@@ -11,6 +11,9 @@
 		AFA9B3D72677525000E9D54B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA9B3D62677525000E9D54B /* ContentView.swift */; };
 		AFA9B3D92677525200E9D54B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFA9B3D82677525200E9D54B /* Assets.xcassets */; };
 		AFA9B3DC2677525200E9D54B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFA9B3DB2677525200E9D54B /* Preview Assets.xcassets */; };
+		AFA9B3FB2677619600E9D54B /* whitney-book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFA9B3F82677619600E9D54B /* whitney-book.ttf */; };
+		AFA9B3FC2677619600E9D54B /* whitney-light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFA9B3F92677619600E9D54B /* whitney-light.ttf */; };
+		AFA9B3FD2677619600E9D54B /* whitney-semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFA9B3FA2677619600E9D54B /* whitney-semibold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		AFA9B3D82677525200E9D54B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFA9B3DB2677525200E9D54B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AFA9B3DD2677525200E9D54B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFA9B3F82677619600E9D54B /* whitney-book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "whitney-book.ttf"; sourceTree = "<group>"; };
+		AFA9B3F92677619600E9D54B /* whitney-light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "whitney-light.ttf"; sourceTree = "<group>"; };
+		AFA9B3FA2677619600E9D54B /* whitney-semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "whitney-semibold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,7 @@
 				AFA9B3D42677525000E9D54B /* DotaApp.swift */,
 				AFA9B3D62677525000E9D54B /* ContentView.swift */,
 				AFA9B3D82677525200E9D54B /* Assets.xcassets */,
+				AFA9B3F72677619600E9D54B /* fonts */,
 				AFA9B3DD2677525200E9D54B /* Info.plist */,
 				AFA9B3DA2677525200E9D54B /* Preview Content */,
 			);
@@ -67,6 +74,16 @@
 				AFA9B3DB2677525200E9D54B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AFA9B3F72677619600E9D54B /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AFA9B3F82677619600E9D54B /* whitney-book.ttf */,
+				AFA9B3F92677619600E9D54B /* whitney-light.ttf */,
+				AFA9B3FA2677619600E9D54B /* whitney-semibold.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +143,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFA9B3FD2677619600E9D54B /* whitney-semibold.ttf in Resources */,
+				AFA9B3FC2677619600E9D54B /* whitney-light.ttf in Resources */,
 				AFA9B3DC2677525200E9D54B /* Preview Assets.xcassets in Resources */,
 				AFA9B3D92677525200E9D54B /* Assets.xcassets in Resources */,
+				AFA9B3FB2677619600E9D54B /* whitney-book.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
