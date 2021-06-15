@@ -11,6 +11,11 @@
 		AFC01C052678C3DA00B1B10B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC01C042678C3DA00B1B10B /* ContentView.swift */; };
 		AFC01C072678C3DC00B1B10B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC01C062678C3DC00B1B10B /* Assets.xcassets */; };
 		AFC01C0A2678C3DC00B1B10B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC01C092678C3DC00B1B10B /* Preview Assets.xcassets */; };
+		AFC01C162678CDA600B1B10B /* CashMarket-BoldRounded.otf in Resources */ = {isa = PBXBuildFile; fileRef = AFC01C132678CDA500B1B10B /* CashMarket-BoldRounded.otf */; };
+		AFC01C172678CDA600B1B10B /* CashMarket-MediumRounded.otf in Resources */ = {isa = PBXBuildFile; fileRef = AFC01C142678CDA500B1B10B /* CashMarket-MediumRounded.otf */; };
+		AFC01C182678CDA600B1B10B /* CashMarket-RegularRounded.otf in Resources */ = {isa = PBXBuildFile; fileRef = AFC01C152678CDA500B1B10B /* CashMarket-RegularRounded.otf */; };
+		AFC01C1C2678DC8A00B1B10B /* EmailOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC01C1B2678DC8A00B1B10B /* EmailOnboarding.swift */; };
+		AFC01C2B2678DFAC00B1B10B /* TextStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC01C2A2678DFAC00B1B10B /* TextStyles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		AFC01C062678C3DC00B1B10B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFC01C092678C3DC00B1B10B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AFC01C0B2678C3DC00B1B10B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFC01C132678CDA500B1B10B /* CashMarket-BoldRounded.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CashMarket-BoldRounded.otf"; sourceTree = "<group>"; };
+		AFC01C142678CDA500B1B10B /* CashMarket-MediumRounded.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CashMarket-MediumRounded.otf"; sourceTree = "<group>"; };
+		AFC01C152678CDA500B1B10B /* CashMarket-RegularRounded.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CashMarket-RegularRounded.otf"; sourceTree = "<group>"; };
+		AFC01C1B2678DC8A00B1B10B /* EmailOnboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailOnboarding.swift; sourceTree = "<group>"; };
+		AFC01C2A2678DFAC00B1B10B /* TextStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +64,12 @@
 			children = (
 				AFC01C022678C3DA00B1B10B /* Cash_AppApp.swift */,
 				AFC01C042678C3DA00B1B10B /* ContentView.swift */,
+				AFC01C1E2678DC9700B1B10B /* Onboarding */,
 				AFC01C062678C3DC00B1B10B /* Assets.xcassets */,
+				AFC01C122678CDA500B1B10B /* fonts */,
 				AFC01C0B2678C3DC00B1B10B /* Info.plist */,
 				AFC01C082678C3DC00B1B10B /* Preview Content */,
+				AFC01C242678DE4300B1B10B /* Components */,
 			);
 			path = "Cash App";
 			sourceTree = "<group>";
@@ -67,6 +80,32 @@
 				AFC01C092678C3DC00B1B10B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AFC01C122678CDA500B1B10B /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AFC01C132678CDA500B1B10B /* CashMarket-BoldRounded.otf */,
+				AFC01C142678CDA500B1B10B /* CashMarket-MediumRounded.otf */,
+				AFC01C152678CDA500B1B10B /* CashMarket-RegularRounded.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		AFC01C1E2678DC9700B1B10B /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				AFC01C1B2678DC8A00B1B10B /* EmailOnboarding.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		AFC01C242678DE4300B1B10B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AFC01C2A2678DFAC00B1B10B /* TextStyles.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +166,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFC01C0A2678C3DC00B1B10B /* Preview Assets.xcassets in Resources */,
+				AFC01C172678CDA600B1B10B /* CashMarket-MediumRounded.otf in Resources */,
+				AFC01C182678CDA600B1B10B /* CashMarket-RegularRounded.otf in Resources */,
 				AFC01C072678C3DC00B1B10B /* Assets.xcassets in Resources */,
+				AFC01C162678CDA600B1B10B /* CashMarket-BoldRounded.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +180,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFC01C1C2678DC8A00B1B10B /* EmailOnboarding.swift in Sources */,
+				AFC01C2B2678DFAC00B1B10B /* TextStyles.swift in Sources */,
 				AFC01C052678C3DA00B1B10B /* ContentView.swift in Sources */,
 				AFC01C032678C3DA00B1B10B /* Cash_AppApp.swift in Sources */,
 			);
