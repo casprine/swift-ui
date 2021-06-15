@@ -29,7 +29,6 @@ struct ContentView: View {
 
 struct ProfileScreen: View {
     var body: some View {
-        
         VStack {
             NavigationView {
                 ScrollView (.vertical, showsIndicators: false) {
@@ -154,7 +153,6 @@ struct SettingsSection: View{
 
 struct UnlockServicesSection :View  {
     var body: some View {
-        
         VStack (alignment: .center, spacing: /*@START_MENU_TOKEN@*/nil/*@END_MENU_TOKEN@*/, content: {
             Text("Unlock all Chipper Cash has to offer...").font(.system(size:13, weight:.light))
             HStack{
@@ -174,10 +172,6 @@ struct UnlockServicesSection :View  {
             Text("Get Support").font(.system(size:13, weight:.medium)).foregroundColor(Color.green)
             
         })
-        
-        
-        
-        
         .padding(15)
     }
 }
